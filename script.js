@@ -1,5 +1,5 @@
 (async function () {
-    const data = await fetch('employees.json');
+    const data = await fetch('/projects/employees.json');
     const res = await data.json();
 
     let employees = res;
